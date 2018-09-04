@@ -1,0 +1,21 @@
+create table artist (
+  id  serial primary key,
+  name varchar(100) not null,
+  band varchar(50) not null,
+  genre varchar(100),
+  bio_link varchar(200),
+  article_link_1 varchar (200),
+  article_link_2 varchar (200)
+);
+
+INSERT INTO artist (id, name, band, genre, bio_link, article_link_1, article_link_2)
+VALUES (1, 'Elvis Presley', 'Elvis Presley', 'Rock and Roll' 'https://www.biography.com/people/elvis-presley-9446466', 'https://countrymusichalloffame.org/Inductees/InducteeDetail/elvis-presley', 'https://www.billboard.com/articles/news/6495222/elvis-presley-las-vegas-history')
+
+INSERT INTO artist (id, name, band, genre, bio_link, article_link_1, article_link_2)
+VALUES (2, 'Aretha Franklin', 'Aretha Franklin', 'Soul Music', 'https://www.biography.com/people/aretha-franklin-9301157', 'https://www.nytimes.com/topic/person/aretha-franklin', 'https://www.rollingstone.com/music/music-news/why-aretha-franklin-was-americas-greatest-voice-712489/')
+
+INSERT INTO artist (id, name, band, genre, bio_link, article_link_1, article_link_2)
+VALUES (3, 'Axel Rose', 'Guns and Roses', 'Hair Metal', 'https://www.biography.com/people/axl-rose-20851927', 'https://www.nytimes.com/2008/11/23/arts/music/23pare.html', 'https://www.rollingstone.com/music/music-features/axl-rose-the-rolling-stone-interview-99204/')
+
+INSERT INTO artist (id, name, band, genre, bio_link, article_link_1, article_link_2)
+VALUES (4, 'Steven Tyler', 'Aerosmith', 'Hard Rock', 'https://www.biography.com/people/steven-tyler-16472561', 'https://www.rollingstone.com/music/music-news/steven-tyler-sends-trump-cease-and-desist-letter-for-playing-aerosmith-at-rally-714395/', 'https://www.rollingstone.com/music/music-news/steven-tyler-on-cocaine-acid-weed-alcohol-and-other-diversions-254736/')
